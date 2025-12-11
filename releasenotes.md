@@ -6,6 +6,10 @@
 
 - 雅典娜支持通过 Screen 键启动 HTTP Server
 
+### 🐛 BUG 修复
+
+- 修复无法启动超过 30MB 的 uImage 的问题
+
 ### 📢 其他更新
 
 - 修改 bootcmd 为 bootipq（[点击此处](https://github.com/chenxin527/uboot-ipq60xx-emmc-build/commit/b1682e34c931779f1f46ff4d210777e9b1256f1a) 查看详细说明）

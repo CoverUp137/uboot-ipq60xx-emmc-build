@@ -34,7 +34,7 @@
 #define CONFIG_SKIP_LOWLEVEL_INIT
 
 /* Adjust uncompressed size of uImage to 0xF000000 Bytes (240 MBytes). */
-#define CONFIG_SYS_BOOTM_LEN		0xF000000 /* 0x50000000 - 0x41000000 = 0xF000000*/
+#define CONFIG_SYS_BOOTM_LEN		0xF000000 /* 0x50000000 - 0x41000000 = 0xF000000 */
 
 #define CONFIG_ENV_SIZE_MAX		(256 << 10) /* 256 KB */
 
