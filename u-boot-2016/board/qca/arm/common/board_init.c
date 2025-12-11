@@ -204,7 +204,6 @@ int board_init(void)
 
 	aquantia_phy_reset_init();
 	disable_audio_clks();
-	ipq_uboot_fdt_fixup();
 	/*
 	 * Needed by ipq806x to avoid TX FIFO curruption during
 	 * serial init after relocation
